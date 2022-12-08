@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-contain {
+    width: 80%;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    height: 1000px;
+}
+
+.name{
+    float: left;
+    width: 50%;
+}
+
+.phonenumber{
+    float: left;
+    width: 50%;
+}
+
+.address {
+    float: right;
+    width: 50%;
+}
+
+.gmail {
+    float: right;
+    width: 50%;
+}
+
+.nguoilon {
+    float: left;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.treem {
+    float: right;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.dattour select {
+    width: 91%;
+}
+
+form div {
+    padding-top: 10px;
+}
+
+
+.dattour {
+    float: left;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.tour-info {
+    float: right;
+    width: 55%;
+    background-color: aquamarine;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.submit button {
+    width: 95%;  
+    color:#0F1C3F;  
+    padding: 14px 20px;  
+    margin: 8px 0;  
+    border: 1px solid black;  
+    border-radius: 4px;  
+    cursor: pointer;
+    text-align: left;
+    background-color: white;
+}
+
+
+.submit-acc button{
+    width: 100%;  
+    color: white;  
+    background-color: red;
+    text-align: right;
+}
+
+.submit-acc button:hover{
+    background-color: orangered;
+    color: yellow;
+}
+
+.submit-acc{
+    float: right;
+    padding-right: 25px;
+}
+
+
+.submit span {
+    font-size: 14px;
+    width:max-content;
+}
+
+table, th, td{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding: 8px;
+    width: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse:collapse;
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;  
+    border-radius: 4px;
+}
+
+select {
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;  
+    border-radius: 4px;
+}
+
+textarea {
+    width: 95%;
+    height: 100px;
+    border: 1px solid black;  
+    border-radius: 4px;
+}
+
+.banggia p {
+    font-size: 30px;
+    color: #273661;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 23px;
+}
+
+.banggia span{
+    display: block;
+    font-size: 20px;
+}
+
+.banggia span:last-child{
+    color: red;
+    font-size: 30px;
+}
+
+.tab-content{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-block-start: 40px;
+}
+
+
+.tab-content p{
+    display: block;
+    padding: 9px 20px;
+    border-radius: 5px;
+    background: blue;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.tab-content p:hover{
+    background-color: rgb(56, 56, 250);
+    color: yellow;
+}
+
+.daingo {
+    padding-block-start: 15px;
+}
+
+.daingo li {
+    list-style: none;
+    width: 80%;
+    list-style-position: inside;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.daingo li div {
+    background: #456BD9;
+    border: 1px solid #0F1C3F;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

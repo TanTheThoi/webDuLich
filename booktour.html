@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="booktour.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <a href="https://tanthethoi.github.io/webDuLich/index.html">
+            <img src="img/Logo_2020_Main White.webp" alt="">
+        </a>
+        <ul id="header-items">
+            <li><a href="">Địa lí</a>
+               <ul class="choose">
+                    <li><a href="https://tanthethoi.github.io/webDuLich/mienbac.html">Miền Bắc</a></li>
+                    <li><a href="https://tanthethoi.github.io/webDuLich/mientrung.html">Miền Trung</a></li>
+                    <li><a href="https://tanthethoi.github.io/webDuLich/miennam.html">Miền Nam</a></li>
+                    <li><a href="https://tanthethoi.github.io/webDuLich/nuocngoai.html">Nước ngoài</a></li>
+               </ul>
+            </li>
+            <li><a href="">Phân loại</a>
+                <ul class="choose">
+                    <li><a href="https://tanthethoi.github.io/webDuLich/nui.html">Núi</a></li>
+                    <li><a href="https://tanthethoi.github.io/webDuLich/rung.html">Rừng</a></li>
+                    <li><a href="https://tanthethoi.github.io/webDuLich/bien.html">Biển</a></li>               
+                </ul>
+             </li>
+            <li><a href="https://tanthethoi.github.io/webDuLich/Review/index.html">Review</a></li>
+            <li><a href="">Tour đã đặt</a></li>
+            <li><a href="https://tanthethoi.github.io/webDuLich/login.html">Đăng nhập</a></li>
+            <li><a href="https://tanthethoi.github.io/webDuLich/index.html">Đăng kí</a></li>
+
+        </ul>
+    </div>
+    <div class="main-contain">
+
+        <div class="dattour">
+            <h1>Thông tin khách hàng</h1>
+            
+                <div class="name">
+                    Họ và tên <br><input id="name_kh" type="text">    
+                </div>
+                <div class="address">
+                    Địa chỉ <br><input id="add_kh" type="text">
+                </div>
+                <div class="phonenumber">
+                    Số điện thoại <br><input id="pn_kh" type="text">
+                </div>
+                <div class="gmail">
+                    Địa chỉ email <br><input id="e_kh" type="text">    
+                </div>
+
+                <div class="nguoilon">
+                    Người lớn<br>
+                    <select id="adult">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+
+                <div class="treem">
+                    Trẻ em<br>
+                    <select id="child">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+
+
+                <div class="note">
+                    Ghi chú<br><textarea></textarea>
+                </div>
+
+
+                <h1>Ngày khởi hành</h1>
+                <div class="datetime">
+                    <select name="department">
+                        <option>15/12/2022</option>
+                        <option>20/12/2022</option>
+                        <option>01/01/2023</option>
+                        <option>30/01/2023</option>
+                        <option>01/02/2023</option>
+                        <option>20/02/2023</option>
+                        <option>28/02/2023</option>
+                    </select>
+                </div>
+
+                <h1>Số ngày đi</h1>
+                <div class="sl_ngay">
+                    <select id="sl_ngay">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div class="submit">
+                    <button name="button" type="button">Thanh toán trực tiếp</button>
+                    <span class="thanhtrung">
+                        MIỄN PHÍ thu tiền mặt tận nơi theo yêu cầu của Quýkhách hàng. Nhân viên của Bestour sẽ chuẩn bị hợp đồng, lịch trình,
+                        hóa đơn có dấu đỏ của Công ty đến tận nhà quý khách để xác nhận tour
+                    </span>
+                    <button name="button" type="button">Thanh toán theo chuyển khoản</button>
+                    <span>
+                        Tài khoản cá nhân :
+                            Ngân hàng Viettinbank - Chi nhánh Thanh Xuân<br>
+                            STK : 0869604842  <br>   Chủ tài khoản: Phạm Thành Trung
+                    </span>
+                    <div class="submit-acc">
+                        <button id="hoaDon" type="button">In hóa đơn</button>
+                    </div>
+                </div>
+
+            
+        </div>
+
+        <div class="tour-info">
+            <div class="banggia">
+                <p>BẢNG GIÁ</p>
+                <span id="kh_name">Tên khách hàng: </span>
+                <span id="kh_add">Địa chỉ: </span>
+                <span id="kh_pn">Số điện thoại: </span>
+                <span id="kh_e">Email: </span>
+                <span id="sl_treem">Số lượng trẻ em: </span>
+                <span id="sl_nguoilon">Số lượng người lớn: </span>
+                <span>Tiền xe: 2000000đ</span>
+                <span id="kh_sl_ngay">Số ngày đi: </span>
+                <span id="tong">Tổng tiền: </span>
+            </div>
+            <div class="tab-content">
+                <p>Giá đã bao gồm</p>
+                <div class="daingo">
+                        <ul>
+                            <li>
+                                <div></div>
+                                <span>Vé máy bay khứ hồi HAN – SIN - HAN, Lệ phí sân bay quốc tế, phụ thu nhiên liệu HK ( Áp dụng cho khách ghép đoàn mua tour trọn gói), 20kg hành lý ký gửi và 07 kg hành lý xách tay.</span>
+                            </li>
+                            <li>
+                                <div></div>
+                                <span>Khách sạn tiêu chuẩn 3-4 sao  (02 người/phòng, trường hợp lẻ nam, nữ 3 người/phòng)</span>
+                            </li>
+                            <li>
+                                <div></div>
+                                Các bữa ăn theo chương trình, vé vào tham quan thắng cảnh vào cửa lần một.</li>
+                            <li>
+                                <div></div>
+                                Phương tiện vận chuyển trong và ngoài nước: xe du lịch máy lạnh đời mới.</li>
+                            <li>
+                                <div></div>
+                                Hướng dẫn viên suốt tuyến và hướng dẫn viên địa phương.</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div>Thông tin liên hê
+            <ul>
+                <li>SDT: 1900100 có</li>
+                <li>Gmail: dulichsieura@gmail.com</li>
+                <li>Facebook: Du lịch Siêu rẻ</li>
+                <li>Địa chỉ: A6 - 603</li>
+            </ul>
+        </div>
+        <div>Theo dõi chúng tôi trên
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twister</li>
+            </ul>
+        </div>
+
+        <div>Thông tin thêm
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    
+</body>
+
+<script>
+    var name_kh = document.getElementById('name_kh');
+    var add_kh = document.getElementById('add_kh');
+    var pn_kh = document.getElementById('pn_kh');
+    var e_kh = document.getElementById('e_kh');
+    var kh_name = document.getElementById('kh_name');
+    var kh_add = document.getElementById('kh_add');
+    var kh_pn = document.getElementById('kh_pn');
+    var kh_e = document.getElementById('kh_e');
+    var children = document.getElementById('child');
+    var adults = document.getElementById('adult');
+    var sl_ngay = document.getElementById('sl_ngay'); 
+    var hoa_don = document.getElementById('hoaDon');
+    var sl_treem = document.getElementById('sl_treem');
+    var sl_nguoilon = document.getElementById('sl_nguoilon');
+    var tongtien = document.getElementById('tong');
+    var kh_sl_ngay = document.getElementById('kh_sl_ngay');
+
+    var tong = 0;
+    hoa_don.onclick = function(){
+        tong = (children.value*80000 + adults.value*100000)*sl_ngay.value + 2000000; 
+        tongtien.innerHTML +=tong;
+        sl_treem.innerHTML += children.value;
+        sl_nguoilon.innerHTML += adults.value;
+        kh_sl_ngay.innerHTML += sl_ngay.value;
+        kh_name.innerHTML += name_kh.value;
+        kh_add.innerHTML += add_kh.value;
+        kh_pn.innerHTML += pn_kh.value;
+        kh_e.innerHTML += e_kh.value;
+    }
+</script>
+</html>
